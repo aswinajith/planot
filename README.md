@@ -23,21 +23,19 @@ Placementbot keeps track of incoming placement notification and reminds you beof
 
 ### 🖼️ Workflow Preview
 
-> Replace these with actual screenshots from your `screenshots` folder:
 
 ![Workflow — Import view](screenshots/workflow.png)  
 *Import view of the n8n workflow showing node layout.*
 
-![Workflow — Data extraction](screenshots/workflow-data-nodes.png)  
+![Workflow — Data extraction](screenshots/information.png)  
 *Nodes that handle parsing and structured extraction.*
 
 ---
 
-## 💬 Sample Incoming Message
+## 💬 Sample Reminder Message
 
-Show how a valid placement email looks before processing:
-
-![Incoming message example](screenshots/incoming-message.png)  
+This shows sample of how the bot sends mail alert and reminder one hour before deadline.
+![Incoming message example](screenshots/message.png)  
 *Example of a raw placement email that the workflow ingests.*
 
 ---
@@ -50,21 +48,3 @@ Show how a valid placement email looks before processing:
 | **Telegram Bot API** | Sending notifications |
 | **Gemini / LLM Node** | Structured data extraction |
 | **Webhook Triggers** | Listens for incoming emails |
-
----
-
-## 📥 Getting Started
-
-### 🔧 Prerequisites
-
-- n8n instance (cloud or self-hosted)
-- Telegram bot token (via BotFather)
-- Endpoint for email webhook events
-
-### 🧩 Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/aswinajith/placementbot.git
-   cd placementbot
-
