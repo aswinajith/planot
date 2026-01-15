@@ -35,6 +35,7 @@ Placementbot keeps track of incoming placement notification and reminds you beof
 ## 💬 Sample Reminder Message
 
 This shows sample of how the bot sends mail alert and reminder one hour before deadline.
+
 ![Incoming message example](screenshots/message.png)  
 *Example of a raw placement email that the workflow ingests.*
 
